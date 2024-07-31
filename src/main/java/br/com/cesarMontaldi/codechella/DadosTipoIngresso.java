@@ -2,7 +2,7 @@ package br.com.cesarMontaldi.codechella;
 
 public record DadosTipoIngresso(
         Integer codigo,
-        Formato formato,
+        Setor setor,
         Definicao definicao
 ) {
 }
